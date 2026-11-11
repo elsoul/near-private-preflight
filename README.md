@@ -4,6 +4,8 @@
 
 Built for **NEAR HACKATHON 2026**, targeting **Privacy & Private AI** and **AI Security & Defense**. This is a new prototype built during the hackathon window. It uses NEAR AI Cloud as its private explanation engine and ERPC as its only blockchain RPC provider.
 
+**[Watch the 95.9-second demo](https://youtu.be/Fgn99nVjG_A).** It shows actual NEAR-verified responses and ERPC testnet simulation, followed by over-budget and prompt-injection examples. Long provider waits are shortened where labeled. [Validation record](docs/validation.md).
+
 ## Try it
 
 Requires Node.js **24.22.1+** and npm. The application runs locally; judges do not need a hosted service or a wallet extension.

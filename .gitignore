@@ -9,3 +9,5 @@ coverage/
 artifacts/
 playwright-report/
 test-results/
+# Local handoff worksheet; contains unpublished draft workflow links.
+/docs/submission.md
