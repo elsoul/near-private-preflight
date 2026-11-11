@@ -1,0 +1,29 @@
+{
+  "name": "near-private-preflight",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private transaction explanations with NEAR AI Cloud and deterministic Solana testnet preflight through ERPC.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.22.1"
+  },
+  "scripts": {
+    "dev": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.testnet src/server.ts",
+    "build": "tsc",
+    "start": "node --env-file-if-exists=.env --env-file-if-exists=.env.testnet dist/server.js",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "prepare-testnet": "tsx --env-file-if-exists=.env scripts/prepare-testnet.ts"
+  },
+  "dependencies": {
+    "@nearai/inference-sdk": "0.3.0",
+    "@solana/kit": "8.6.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
