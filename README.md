@@ -1,5 +1,9 @@
 # Private Preflight
 
+**NEAR Hackathon prototype · Solana testnet**
+
+[![Private Preflight — Know what you approve.](assets/private-preflight-hero.png)][private-preflight-home]
+
 **Know what you approve.** Explain a proposed SOL transfer privately, compare it with an explicit spending policy, and simulate it on Solana testnet before any wallet signature.
 
 Built for **NEAR HACKATHON 2026**, targeting **Privacy & Private AI** and **AI Security & Defense**. This is a new prototype built during the hackathon window. It uses NEAR AI Cloud as its private explanation engine and ERPC as its only blockchain RPC provider.
@@ -73,4 +77,10 @@ This repository was created for the hackathon. AI-assisted implementation was us
 
 The unit tests isolate external services and verify the application's decision and failure behavior. They do not constitute an independent audit of NEAR's TEE cryptography. Live validation results and demo links are recorded separately when available.
 
-License: [MIT](LICENSE).
+Software license: [MIT](LICENSE).
+
+## Brand artwork
+
+The [product icon](assets/private-preflight-icon.png) and the hero above are ERPC brand materials, covered by the [artwork notice](LICENSES/LicenseRef-ELSOUL-LABO-Brand.txt). The NEAR AI and Solana marks identify the providers and test network used by this prototype; their respective owners retain their rights.
+
+[private-preflight-home]: https://github.com/elsoul/near-private-preflight
